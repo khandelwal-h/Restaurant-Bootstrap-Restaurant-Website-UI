@@ -1,0 +1,29 @@
+
+
+.container .navbar-brand
+{
+    color: #FF0000;
+}
+
+
+
+.nav-item .nav-link{
+    margin-right: 15px; /* Adjust as needed */
+    color: chocolate;
+
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* Remove right margin from the last nav-item */
+  }
+  
+  .nav-item a {
+    color: #333; /* Adjust link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-item a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
